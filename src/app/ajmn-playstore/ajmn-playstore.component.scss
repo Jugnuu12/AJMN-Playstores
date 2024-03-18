@@ -82,7 +82,10 @@
     }
 
 }
-
+.active{
+    border-bottom: 3px solid black;
+    border-radius: 0px ;
+}
 
 @media (max-width: 595px) {
     .main-page .carousel-item .carousel-caption div h5 {

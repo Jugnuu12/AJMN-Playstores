@@ -129,26 +129,17 @@
         </div>
         <div class="mt-5 mb-3">
             <ul class="nav nav-pills mb-3 tab-change-on-larger" id="pills-tab" role="tablist">
-
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill"
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                        type="button" role="tab" aria-controls="pills-home" aria-selected="true">Reviews</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
                         aria-selected="false">Write Review</button>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                        type="button" role="tab" aria-controls="pills-home" aria-selected="true">Reviews</button>
-                </li>
             </ul>
             <div class="tab-content" id="pills-tabContent mt-5">
-                <div class="tab-pane fade d-flex gap-3" id="pills-profile" role="tabpanel"
-                    aria-labelledby="pills-profile-tab">
-                    <textarea style="border: 1px solid black;" rows="3" class="form-control"></textarea>
-                    <div class="d-flex flex-column align-items-between  justify-content-between  gapt-3 ">
-                        <button type="button" style="color: white;" class="btn btn-warning">Send</button>
-                        <button type="button" style="color: white;" class="btn btn-secondary">Cancel</button>
-                    </div>
-                </div>
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -215,6 +206,14 @@
                         </button>
                     </div>
                 </div>
+                <div class="tab-pane fade d-flex gap-3" id="pills-profile" role="tabpanel"
+                aria-labelledby="pills-profile-tab">
+                <textarea style="border: 1px solid black;" rows="3" class="form-control"></textarea>
+                <div class="d-flex flex-column align-items-between  justify-content-between  gapt-3 ">
+                    <button type="button" style="color: white;" class="btn btn-warning">Send</button>
+                    <button type="button" style="color: white;" class="btn btn-secondary">Cancel</button>
+                </div>
+            </div>
             </div>
         </div>
     </div>
